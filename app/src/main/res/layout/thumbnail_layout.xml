@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/thumbnail_last"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/content_descriptor_imageview"
+        android:scaleType="centerCrop" />
+    
+    <ImageView
+        android:id="@+id/thumbnail_current"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/content_descriptor_imageview"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>

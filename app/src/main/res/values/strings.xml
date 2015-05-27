@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Camera</string>
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>
+    <!-- Default videocamera flash mode setting. -->
+    <string name="pref_camera_video_flashmode_default" translatable="false">off</string>
+    <!-- Settings screen, Camcorder setting category title -->
+    <string name="pref_camcorder_settings_category" translatable="false">Camcorder settings</string>
+    <!-- Default effect setting that clears the effect. -->
+    <string name="pref_camera_id_title" translatable="false">Choose camera</string>
+    <!-- The default quality value is 5 (720p) -->
+    <string name="pref_video_quality_default" translatable="false">6</string>
+
+    <string name="pref_camera_scan_flashmode_default" translatable="false">off</string>
+    <!-- preferences -->
+    <string name="pref_camera_id_default" translatable="false">0</string>
+    <string name="pref_camera_id_entry_back" translatable="false">Back</string>
+    <string name="pref_camera_id_entry_front" translatable="false">Front</string>
+    <string name="pref_camera_recordlocation_title" translatable="false">Store location</string>
+    <string name="pref_camera_recordlocation_default" translatable="false">none</string>
+    <string name="pref_camera_location_label" translatable="false">LOCATION</string>
+    <string name="pref_camera_timer_title" translatable="false">Countdown timer</string>
+    <string name="pref_camera_timer_default" translatable="false">0</string>
+    <string name="pref_camera_timer_sound_default" translatable="false">@string/setting_on_value</string>
+    <string name="pref_camera_timer_sound_title" translatable="false">Beep during countdown</string>
+    <string name="pref_video_quality_title" translatable="false">Video quality</string>
+    <string name="pref_video_quality_entry_1080p" translatable="false">HD 1080p</string>
+    <string name="pref_video_quality_entry_720p" translatable="false">HD 720p</string>
+    <string name="pref_video_quality_entry_480p" translatable="false">SD 480p</string>
+    <string name="pref_video_quality_entry_high" translatable="false">High</string>
+    <string name="pref_video_quality_entry_low" translatable="false">Low</string>
+    <string name="pref_video_time_lapse_frame_interval_title" translatable="false">Time lapse</string>
+    <string name="pref_camera_settings_category" translatable="false">Camera settings</string>
+    <string name="pref_camera_picturesize_title" translatable="false">Picture size</string>
+    <string name="pref_camera_picturesize_entry_13mp" translatable="false">13M pixels</string>
+    <string name="pref_camera_picturesize_entry_8mp" translatable="false">8M pixels</string>
+    <string name="pref_camera_picturesize_entry_5mp" translatable="false">5M pixels</string>
+    <string name="pref_camera_picturesize_entry_4mp" translatable="false">4M pixels</string>
+    <string name="pref_camera_picturesize_entry_3mp" translatable="false">3M pixels</string>
+    <string name="pref_camera_picturesize_entry_2mp" translatable="false">2M pixels</string>
+    <string name="pref_camera_picturesize_entry_2mp_wide" translatable="false">2M pixels (16:9)</string>
+    <string name="pref_camera_picturesize_entry_1_3mp" translatable="false">1.3M pixels</string>
+    <string name="pref_camera_picturesize_entry_1mp" translatable="false">1M pixels</string>
+    <string name="pref_camera_picturesize_entry_vga" translatable="false">VGA</string>
+    <string name="pref_camera_picturesize_entry_qvga" translatable="false">QVGA</string>
+    <string name="pref_camera_focusmode_title" translatable="false">Focus mode</string>
+    <string name="pref_camera_focusmode_entry_auto" translatable="false">Auto</string>
+    <string name="pref_camera_focusmode_entry_infinity" translatable="false">Infinity</string>
+    <string name="pref_camera_focusmode_entry_macro" translatable="false">Macro</string>
+    <string name="pref_camera_focusmode_label_auto" translatable="false">AUTO</string>
+    <string name="pref_camera_focusmode_label_infinity" translatable="false">INFINITY</string>
+    <string name="pref_camera_focusmode_label_macro" translatable="false">MACRO</string>
+    <string name="pref_camera_flashmode_default" translatable="false">auto</string>
+    <string name="pref_scan_flashmode_default" translatable="false">off</string>
+    <string name="pref_camera_flashmode_title" translatable="false">Flash mode</string>
+    <string name="pref_camera_flashmode_entry_auto" translatable="false">Auto</string>
+    <string name="pref_camera_flashmode_entry_on" translatable="false">On</string>
+    <string name="pref_camera_flashmode_entry_off" translatable="false">Off</string>
+    <string name="pref_camera_flashmode_label_auto" translatable="false">FLASH AUTO</string>
+    <string name="pref_camera_flashmode_label_on" translatable="false">FLASH ON</string>
+    <string name="pref_camera_flashmode_label_off" translatable="false">FLASH OFF</string>
+    <string name="pref_camera_whitebalance_title" translatable="false">White balance</string>
+    <string name="pref_camera_whitebalance_entry_auto" translatable="false">Auto</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" translatable="false">Incandescent</string>
+    <string name="pref_camera_whitebalance_entry_daylight" translatable="false">Daylight</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" translatable="false">Fluorescent</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" translatable="false">Cloudy</string>
+    <string name="pref_camera_whitebalance_label_auto" translatable="false">AUTO</string>
+    <string name="pref_camera_whitebalance_label_incandescent" translatable="false">INCANDESCENT</string>
+    <string name="pref_camera_whitebalance_label_daylight" translatable="false">DAYLIGHT</string>
+    <string name="pref_camera_whitebalance_label_fluorescent" translatable="false">FLUORESCENT</string>
+    <string name="pref_camera_whitebalance_label_cloudy" translatable="false">CLOUDY</string>
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string>
+    <string name="pref_camera_scenemode_title" translatable="false">Scene mode</string>
+    <string name="pref_camera_scenemode_entry_auto" translatable="false">Auto</string>
+    <string name="pref_camera_scenemode_entry_hdr" translatable="false">HDR</string>
+    <string name="pref_camera_scenemode_entry_action" translatable="false">Action</string>
+    <string name="pref_camera_scenemode_entry_night" translatable="false">Night</string>
+    <string name="pref_camera_scenemode_entry_sunset" translatable="false">Sunset</string>
+    <string name="pref_camera_scenemode_entry_party" translatable="false">Party</string>
+    <string name="pref_camera_scenemode_label_auto" translatable="false">NONE</string>
+    <string name="pref_camera_scenemode_label_action" translatable="false">ACTION</string>
+    <string name="pref_camera_scenemode_label_night" translatable="false">NIGHT</string>
+    <string name="pref_camera_scenemode_label_sunset" translatable="false">SUNSET</string>
+    <string name="pref_camera_scenemode_label_party" translatable="false">PARTY</string>
+    <string name="pref_exposure_title" translatable="false">Exposure</string>
+    <string name="pref_exposure_default" translatable="false">0</string>
+    <string name="pref_exposure_label" translatable="false">EXPOSURE</string>
+    <string name="pref_camera_hdr_default" translatable="false">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_label" translatable="false">HDR</string>
+    <string name="pref_camera_id_label_back" translatable="false">FRONT CAMERA</string>
+    <string name="pref_camera_id_label_front" translatable="false">BACK CAMERA</string>
+    <string name="pref_video_time_lapse_frame_interval_off" translatable="false">Off</string>
+    <string name="pref_video_time_lapse_frame_interval_500" translatable="false">0.5 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_1000" translatable="false">1 second</string>
+    <string name="pref_video_time_lapse_frame_interval_1500" translatable="false">1.5 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_2000" translatable="false">2 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_2500" translatable="false">2.5 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_3000" translatable="false">3 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_4000" translatable="false">4 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_5000" translatable="false">5 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_6000" translatable="false">6 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_10000" translatable="false">10 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_12000" translatable="false">12 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_15000" translatable="false">15 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_24000" translatable="false">24 seconds</string>
+    <string name="pref_video_time_lapse_frame_interval_30000" translatable="false">0.5 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_60000" translatable="false">1 minute</string>
+    <string name="pref_video_time_lapse_frame_interval_90000" translatable="false">1.5 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_120000" translatable="false">2 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_150000" translatable="false">2.5 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_180000" translatable="false">3 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_240000" translatable="false">4 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_300000" translatable="false">5 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_360000" translatable="false">6 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_600000" translatable="false">10 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_720000" translatable="false">12 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_900000" translatable="false">15 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_1440000" translatable="false">24 minutes</string>
+    <string name="pref_video_time_lapse_frame_interval_1800000" translatable="false">0.5 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_3600000" translatable="false">1 hour</string>
+    <string name="pref_video_time_lapse_frame_interval_5400000" translatable="false">1.5 hour</string>
+    <string name="pref_video_time_lapse_frame_interval_7200000" translatable="false">2 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_9000000" translatable="false">2.5 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_10800000" translatable="false">3 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_14400000" translatable="false">4 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_18000000" translatable="false">5 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_21600000" translatable="false">6 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_36000000" translatable="false">10 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_43200000" translatable="false">12 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_54000000" translatable="false">15 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_86400000" translatable="false">24 hours</string>
+    <string name="pref_video_time_lapse_frame_interval_default" translatable="false">0</string>
+    <string name="pref_camera_flashmode_no_flash" translatable="false">no_flash</string>
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
+    <string name="setting_off" translatable="false">Off</string>
+    <string name="setting_on" translatable="false">On</string>
+    <string name="setting_off_value" translatable="false">off</string>
+    <string name="setting_on_value" translatable="false">on</string>
+    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmss"</string>
+    
+    <!-- ImageView Content Description -->
+    <string name="cd_module_indicator" translatable="false">Module Indicator</string>
+    <string name="cd_panorama_bg" translatable="false">panorama_bg</string>
+    <string name="cd_camera_pano_viewframe_0" translatable="false">camera_pano_viewframe_0</string>
+    <string name="cd_camera_pano_direction_1" translatable="false">camera_pano_direction_1</string>
+    <string name="cd_review_image" translatable="false">VideoModule Review Image</string>
+    <string name="cd_lower_controls" translatable="false">lower_controls</string>
+    <string name="content_descriptor_imageview" translatable="false">imageview</string>
+
+    <!-- SD card -->
+    <!-- alert to the user that USB storage must be available before using the camera [CHAR LIMIT=NONE] -->
+    <!-- alert to the user that an SD card must be installed before using the camera -->
+    <!-- alert to the user that the USB storage is being disk-checked [CHAR LIMIT=30] -->
+    <!-- alert to the user that the SD card is being disk-checked -->
+    <!-- alert to the user that the camera fails to read or write the USB storage. [CHAR LIMIT=NONE] -->
+    <!-- alert to the user that the camera fails to read or write the SD card. -->
+
+
+    <!-- Low-memory dialog message [CHAR LIMT=NONE] -->
+    <!-- Low-memory dialog message [CHAR LIMIT=NONE] -->
+    <string name="guide_photo_text">Photo</string>
+    <string name="guide_video_text">Video</string>
+    <string name="guide_scan_text">Scan</string>
+    <string name="guide_pano_text">Pano</string>
+
+    <!-- Third-party Invocation -->
+    <string name="review_done">Done</string>
+
+    <!-- SD card -->
+    <string name="no_storage" product="default">Taking photo is prohibited in USB Storage Mode</string>
+    <string name="preparing_sd" product="default"> Preparing SD card </string>
+    <string name="access_sd_fail" product="default"> Can not access SD card </string>
+    <string name="spaceIsLow_content" product="default"> Out of storage space </string>
+    <string name="camera_error_title">Error in Camera</string>
+    <string name="panorama_info_start">Tap the button and pan slowly</string>
+    <string name="panorama_info_normal">Move toward right slowly </string>
+    <string name="panorama_info_fast">Slow down</string>
+    <string name="panorama_info_low">Move up</string>
+    <string name="panorama_info_high">Move down</string>
+    <string name="video_reach_size_limit">Maximum video length reached </string>
+    <string name="cannot_connect_camera">Cannot connect to Camera</string>
+
+    <!-- setting related strings -->
+    <string name="camera_setting_category_general">General</string>
+    <string name="camera_setting_category_general_key" translatable="false">key_camera_setting_category_general</string>
+    <string name="camera_setting_category_photo">Photo</string>
+    <string name="camera_setting_category_photo_key" translatable="false">key_camera_setting_category_photo</string>
+    <string name="camera_setting_category_video">Video</string>
+    <string name="camera_setting_category_video_key" translatable="false">key_camera_setting_category_video</string>
+    <string name="camera_setting_category_other">Others</string>
+    <string name="camera_setting_category_other_key" translatable="false">key_camera_setting_category_other</string>
+    <string name="camera_setting_item_loacation_key" translatable="false">pref_camera_recordlocation_key</string>
+    <string name="camera_setting_item_location_title">Record Location Information</string>
+
+    <string name="camera_setting_item_sdcard_key" translatable="false">pref_save_path</string>
+    <string name="camera_setting_item_sdcard_dialog_title">Storage</string>
+    <string name="camera_setting_item_sdcard_default" translatable="false">internal</string>
+    <string-array name="entries_camera_settings_sdcard">
+        <item>SD card</item>
+        <item>Phone Storage</item>
+    </string-array>
+    <string-array name="entryvalues_camera_settings_sdcard" translatable="false">
+        <item>external</item>
+        <item>internal</item>
+    </string-array>
+    <string name="camera_setting_item_sdcard_summary" translatable="false"></string>
+    <string name="camera_setting_item_sdcard_title">Storage</string>
+    <string name="camera_setting_item_volume_key_function_key" translatable="false">pref_volume_key_function_key</string>
+    <string name="camera_setting_item_volume_key_function_title">Use volume key as </string>
+    <string name="camera_setting_item_volume_key_function_default" translatable="false">shutter</string>
+    <string name="camera_setting_item_volume_key_function_dialog_title">Use volume key as</string>
+    <string-array name="entries_camera_settings_volumne_key_fuction">
+        <item>Shutter</item>
+        <item>Zoom key</item>
+        <item>Volumne key</item>
+    </string-array>  
+    <string-array name="entryvalues_camera_settings_volumne_key_fuction"  translatable="false">
+        <item>shutter</item>
+        <item>zoom</item>
+        <item>volume</item>
+    </string-array>
+
+    <string name="camera_setting_item_shutter_sound_key" translatable="false">pref_shutter_sound_key</string>
+    <string name="camera_setting_item_shutter_sound_title">Shutter sound</string>
+
+    <string name="camera_setting_item_preview_size_key" translatable="false">pref_preview_size_key</string>
+    <string name="camera_setting_item_preview_size_title">Aspect ratio</string>
+    <string name="camera_setting_item_preview_size_default" translatable="false">fullscreen</string>
+
+    <string name="camera_setting_item_zsd" translatable="false">pref_zsd</string>
+    <string name="camera_setting_item_zsd_title">ZSD</string>
+    <string name="camera_setting_item_force_autofocus" translatable="false">pref_force_autofocus</string>
+    <string name="camera_setting_item_force_autofocus_title">Force autofocus</string>
+    <string-array name="entries_camera_settings_preview_size">
+        <item>4:3</item>
+        <item>16:9</item>
+    </string-array>
+    
+    <string-array name="entryvalues_camera_settings_preview_size"  translatable="false">
+        <item>4_3</item>
+        <item>fullscreen</item>
+    </string-array>
+
+    <string name="camera_setting_item_photo_resolution_key" translatable="false">pref_photo_resolution_key</string>
+    <string name="camera_setting_item_photo_resolution_title">Image quality</string>
+    <string name="camera_setting_item_photo_resolution_default" translatable="false">high</string>
+    <string name="camera_setting_item_photo_resolution_dialog_title">Image quality </string>
+    <string-array name="entries_camera_settings_photo_resolution">
+        <item>Superfine</item>
+        <item>Fine</item>
+        <item>Normal</item>
+    </string-array>  
+    <string-array name="entryvalues_camera_settings_photo_resolution" translatable="false">
+        <item>high</item>
+        <item>medium</item>
+        <item>low</item>
+    </string-array>
+    <string name="camera_setting_item_video_resolution_key" translatable="false">pref_video_resolution_key</string>
+    <string name="camera_setting_item_video_resolution_title">Video quality</string>
+    <string name="camera_setting_item_video_resolution_default" translatable="false">high</string>
+    <string name="camera_setting_item_video_resolution_dialog_title">Video Quality</string>
+    <string-array name="entries_camera_settings_video_resolution">
+        <item>Superfine</item>
+        <item>Fine</item>
+        <item>Normal</item>
+    </string-array>  
+    <string-array name="entryvalues_camera_settings_video_resolution" translatable="false">
+        <item>high</item>
+        <item>medium</item>
+        <item>low</item>
+    </string-array>
+
+    <string name="camera_setting_item_beauty_level_key" translatable="false">pref_beauty_level_key</string>
+    <string name="camera_setting_item_beauty_level_title">Beauty mode</string>
+    <string name="camera_setting_item_beauty_level_default"  translatable="false">medium</string>
+    <string name="camera_setting_item_beauty_level_dialog_title">Beauty mode</string>
+    <string-array name="entries_camera_settings_beauty_level">
+        <item>Fantastic</item>
+        <item>Natural</item>
+        <item>Slight</item>
+    </string-array>
+    <string-array name="entryvalues_camera_settings_beauty_level" translatable="false">
+        <item>high</item>
+        <item>medium</item>
+        <item>low</item>
+    </string-array>
+    
+    <string name="settings_header">Camera</string>
+    <string name="exif_device" translatable="false">YunOS</string>
+    <!-- Record Location Dialog -->
+    <string name="dialog_allow">Allow</string>
+    <string name="dialog_dont_allow">Decline</string>
+    <string name="dialog_ignore">Ignore</string>
+    <string name="dialog_set">Settings</string>
+    <string name="dialog_record_location_hint">Photos and videos will be tagged with location data which you can find in Gallery.</string>
+    <string name="dialog_location_service_hint">Location service is disabled, go to Settings now? </string>
+    <!-- Scan App -->
+    <string name="scan_app_name">Scanner</string>
+    <string name="face_beauty_on">Beauty mode enabled</string>
+    <!-- filter store -->
+    <string name="store_title">滤镜商店</string>
+    <string name="download">Download</string>
+    <string name="downloading">Downloading</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="download_falied">Download failed, please try again.</string>
+    <string name="filter_getlist_fail">Failed to access the content, please check the network </string>
+    <string name="filter_normal">原图</string>
+
+    <string name="photo_setting_lines">Grid</string>
+    <string name="photo_setting_hdr" translatable="false">HDR</string>
+    <string name="photo_setting_face_beauty">Beauty</string>
+    <string name="photo_setting_more">Settings</string>
+
+  </resources>

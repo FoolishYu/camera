@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- onscreen hine related -->
+    <dimen name="hint_y_offset">130dp</dimen>
+    <!-- panorama related dimens -->
+    <dimen name="panorama_indicator_height">140dp</dimen>
+    <dimen name="panorama_indicator_arrow_offset">49dp</dimen>
+    <dimen name="panorama_indicator_border">2dp</dimen>
+    <dimen name="capture_size">48dip</dimen>
+    <dimen name="pie_touch_slop">12dp</dimen>
+    <dimen name="full_picture_top_margin">52dp</dimen>
+    <!-- scan related dimens -->
+    <dimen name="scan_line_margin_top">162dp</dimen>
+
+    <!-- Module Indicator -->
+    <dimen name="module_indicator_width">50dp</dimen>
+
+    <!-- Video Recording Panel -->
+    <dimen name="video_recording_panel_width">140dp</dimen>
+    <dimen name="video_recording_panel_height">40dp</dimen>
+    <dimen name="video_recording_panel_margin">10dp</dimen>
+    <dimen name="video_recording_panel_icon_width">30dp</dimen>
+    <dimen name="video_recording_panel_topdown_offset">12dp</dimen>
+    <dimen name="video_recording_panel_downtop_offset">10dp</dimen>
+    <dimen name="video_recording_panel_text_margin">15dp</dimen>
+
+    <dimen name="zoom_ring_min">80dp</dimen>
+    <dimen name="zoom_ring_max">115dp</dimen>
+    <dimen name="zoom_font_digit_size">30sp</dimen>
+
+    <dimen name="focus_indicator_inner_size">90dp</dimen>
+
+    <!-- Review -->
+    <dimen name="review_text_size">12sp</dimen>
+
+    <!-- Face Beauty Toast -->
+    <dimen name="face_beauty_toast_offset">166dp</dimen>
+
+    <!-- Photo Settings -->
+    <dimen name="photo_setting_text_size">10sp</dimen>
+
+    <!-- Effect Panel -->
+    <dimen name="effect_panel_text_size">10sp</dimen>
+
+    </resources>

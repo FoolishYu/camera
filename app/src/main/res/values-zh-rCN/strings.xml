@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">相机</string>
+    <string name="guide_photo_text">拍照</string>
+    <string name="guide_video_text">录像</string>
+    <string name="guide_scan_text">扫码</string>
+    <string name="guide_pano_text">全景</string>
+
+    <!-- SD card -->
+    <string name="no_storage" product="default">U盘模式下，无法使用相机</string>
+    <string name="preparing_sd" product="default">正在准备存储卡</string>
+    <string name="access_sd_fail" product="default">无法访问存储卡</string>
+    <string name="spaceIsLow_content" product="default">存储空间不足</string>
+    <string name="camera_error_title">相机出错</string>
+    <string name="panorama_info_start">按下快门后水平缓慢移动</string>
+    <string name="panorama_info_normal">水平向右缓慢移动</string>
+    <string name="panorama_info_fast">再慢点</string>
+    <string name="panorama_info_low">向上移动</string>
+    <string name="panorama_info_high">向下移动</string>
+    <string name="video_reach_size_limit">达到最大视频长度</string>
+    <string name="cannot_connect_camera">无法连接相机</string>
+
+    <!-- Third-party Invocation -->
+    <string name="review_done">使用</string>
+
+    <!-- setting related strings -->
+    <string name="settings_header">相机</string>
+
+    <string name="camera_setting_category_general">通用</string>
+    <string name="camera_setting_category_photo">照片</string>
+    <string name="camera_setting_category_video">录像</string>
+    <string name="camera_setting_category_other">其他功能</string>
+
+    <string name="camera_setting_item_location_title">记录地理位置信息</string>
+    <!-- string name="camera_setting_item_location_on">记录位置信息</string> -->
+    <!--string name="camera_setting_item_location_off">不记录位置信息</string> -->
+
+    <string name="camera_setting_item_sdcard_title">存储位置</string>
+    <string name="camera_setting_item_sdcard_dialog_title">存储位置</string>
+    <string-array name="entries_camera_settings_sdcard">
+        <item>SD卡</item>
+        <item>内置存储</item>
+    </string-array>
+
+    <string name="camera_setting_item_volume_key_function_title">音量键控制</string>
+    <string name="camera_setting_item_volume_key_function_dialog_title">音量键控制</string>
+    <string-array name="entries_camera_settings_volumne_key_fuction">
+        <item>快门</item>
+        <item>变焦</item>
+        <item>音量</item>
+    </string-array>
+
+    <string name="camera_setting_item_zsd_title">零延时拍照</string>
+    
+    <string name="camera_setting_item_force_autofocus_title">拍照强制对焦</string>
+    
+    <string name="camera_setting_item_shutter_sound_title">快门声音</string>
+
+    <string name="camera_setting_item_preview_size_title">照片比例</string>
+
+    <string-array name="entries_camera_settings_preview_size">
+        <item>4:3</item>
+        <item>16:9</item>
+    </string-array>
+    
+    <string name="camera_setting_item_photo_resolution_title">照片质量</string>
+    <string name="camera_setting_item_photo_resolution_dialog_title">照片质量</string>
+    <string-array name="entries_camera_settings_photo_resolution">
+        <item>超精细</item>
+        <item>精细</item>
+        <item>普通</item>
+    </string-array>
+
+    <string name="camera_setting_item_video_resolution_title">录像质量</string>
+    <string name="camera_setting_item_video_resolution_dialog_title">录像质量</string>
+    <string-array name="entries_camera_settings_video_resolution">
+        <item>超清</item>
+        <item>高清</item>
+        <item>普通</item>
+    </string-array>
+
+    <string name="camera_setting_item_beauty_level_title">美颜程度</string>
+    <string name="camera_setting_item_beauty_level_dialog_title">美颜程度</string>
+    <string-array name="entries_camera_settings_beauty_level">
+        <item>梦幻</item>
+        <item>自然</item>
+        <item>轻微</item>
+    </string-array>
+    <!-- Record Location Dialog-->
+    <string name="dialog_allow">允许</string>
+    <string name="dialog_dont_allow">不允许</string>
+    <string name="dialog_ignore">忽略</string>
+    <string name="dialog_set">设置</string>
+    <string name="dialog_record_location_hint">拍摄时将自动记录地理位置,这些信息可以在相册中查看。</string>
+    <string name="dialog_location_service_hint">位置服务未启动,前去设置?</string>
+    <!-- Scan App -->
+    <string name="scan_app_name">扫一扫</string>
+    <string name="face_beauty_on">已开启美颜模式</string>
+    <!-- filter store -->
+    <!-- <string name="store_title">滤镜商店</string> temply only use Chinese-->
+    <string name="download">下载</string>
+    <string name="downloading">正在下载</string>
+    <string name="downloaded">已下载</string>
+    <string name="download_falied">下载失败，请重试。</string>
+    <string name="filter_getlist_fail">内容列表获取失败，请检查网络连接</string>
+    
+    <!-- <string name="filter_normal">原图</string> temply only use Chinese-->
+    <string name="photo_setting_lines">构图线</string>
+    <string name="photo_setting_face_beauty">美颜</string>
+    <string name="photo_setting_more">设置</string>
+
+
+</resources>

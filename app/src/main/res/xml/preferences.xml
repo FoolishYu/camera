@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="@string/camera_setting_category_general_key"
+        android:title="@string/camera_setting_category_general">
+        <hwdroid.preference.HWSwitchPreference
+            android:defaultValue="true"
+            android:key="@string/camera_setting_item_loacation_key"
+            android:switchTextOff=""
+            android:switchTextOn=""
+            android:title="@string/camera_setting_item_location_title" />
+        <ListPreference
+            android:key="@string/camera_setting_item_sdcard_key"
+            android:defaultValue="@string/camera_setting_item_sdcard_default"
+            android:dialogTitle="@string/camera_setting_item_sdcard_dialog_title"
+            android:entries="@array/entries_camera_settings_sdcard"
+            android:entryValues="@array/entryvalues_camera_settings_sdcard"
+            android:summary="@string/camera_setting_item_sdcard_summary"
+            android:title="@string/camera_setting_item_sdcard_title" />
+        <ListPreference
+            android:defaultValue="@string/camera_setting_item_volume_key_function_default"
+            android:dialogTitle="@string/camera_setting_item_volume_key_function_dialog_title"
+            android:entries="@array/entries_camera_settings_volumne_key_fuction"
+            android:entryValues="@array/entryvalues_camera_settings_volumne_key_fuction"
+            android:key="@string/camera_setting_item_volume_key_function_key"
+            android:title="@string/camera_setting_item_volume_key_function_title" />
+        <hwdroid.preference.HWSwitchPreference
+            android:defaultValue="true"
+            android:key="@string/camera_setting_item_shutter_sound_key"
+            android:switchTextOff=""
+            android:switchTextOn=""
+            android:title="@string/camera_setting_item_shutter_sound_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/camera_setting_category_photo_key"
+        android:title="@string/camera_setting_category_photo">
+        <ListPreference
+            android:defaultValue="@string/camera_setting_item_preview_size_default"
+            android:dialogTitle="@string/camera_setting_item_preview_size_title"
+            android:entries="@array/entries_camera_settings_preview_size"
+            android:entryValues="@array/entryvalues_camera_settings_preview_size"
+            android:key="@string/camera_setting_item_preview_size_key"
+            android:title="@string/camera_setting_item_preview_size_title" />
+        <ListPreference
+            android:defaultValue="@string/camera_setting_item_photo_resolution_default"
+            android:dialogTitle="@string/camera_setting_item_photo_resolution_dialog_title"
+            android:entries="@array/entries_camera_settings_photo_resolution"
+            android:entryValues="@array/entryvalues_camera_settings_photo_resolution"
+            android:key="@string/camera_setting_item_photo_resolution_key"
+            android:title="@string/camera_setting_item_photo_resolution_title" />
+        <hwdroid.preference.HWSwitchPreference
+            android:defaultValue="false"
+            android:key="@string/camera_setting_item_zsd"
+            android:switchTextOff=""
+            android:switchTextOn=""
+            android:title="@string/camera_setting_item_zsd_title" />
+        <hwdroid.preference.HWSwitchPreference
+            android:defaultValue="false"
+            android:key="@string/camera_setting_item_force_autofocus"
+            android:switchTextOff=""
+            android:switchTextOn=""
+            android:title="@string/camera_setting_item_force_autofocus_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/camera_setting_category_video_key"
+        android:title="@string/camera_setting_category_video">
+        <ListPreference
+            android:defaultValue="@string/camera_setting_item_video_resolution_default"
+            android:dialogTitle="@string/camera_setting_item_video_resolution_dialog_title"
+            android:entries="@array/entries_camera_settings_video_resolution"
+            android:entryValues="@array/entryvalues_camera_settings_video_resolution"
+            android:key="@string/camera_setting_item_video_resolution_key"
+            android:title="@string/camera_setting_item_video_resolution_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/camera_setting_category_other_key"
+        android:title="@string/camera_setting_category_other">
+        <ListPreference
+            android:defaultValue="@string/camera_setting_item_beauty_level_default"
+            android:dialogTitle="@string/camera_setting_item_beauty_level_dialog_title"
+            android:entries="@array/entries_camera_settings_beauty_level"
+            android:entryValues="@array/entryvalues_camera_settings_beauty_level"
+            android:key="@string/camera_setting_item_beauty_level_key"
+            android:title="@string/camera_setting_item_beauty_level_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

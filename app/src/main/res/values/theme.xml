@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.HWCatalogNoTitleBar" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@color/splash_black</item>
+    </style>
+
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:spinnerDropDownItemStyle">@android:style/Widget.Holo.Light.DropDownItem.Spinner</item>
+        <item name="android:homeAsUpIndicator">@drawable/back_mtrl_am_alpha</item>
+
+        <!-- 消除ActionBar下的阴影线 -->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

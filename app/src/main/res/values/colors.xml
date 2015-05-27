@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="material_teal">#ff009688</color>
+    <!-- Camera resources below -->
+    <color name="splash_black">#000000</color>
+    <color name="recording_time_elapsed_text">#FFFFFFFF</color>
+    <color name="recording_time_remaining_text">#FFFF0033</color>
+    <color name="face_detect_start">#80ffffff</color>
+    <color name="face_detect_success">#8050d060</color>
+    <color name="face_detect_fail">#80d05060</color>
+    <!-- Review Panel -->
+    <color name="review_panel_text_selected_color">#59b200</color>
+    <!-- Setting Panel -->
+    <color name="photo_setting_text_selected_color">#59b200</color>
+    <!-- Effect Panel -->
+    <color name="lower_panel_filter_off_color">#66000000</color>
+    <color name="lower_panel_filter_on_color">#99000000</color>
+    <color name="effect_item_text_selected_color">#59b200</color>
+    <!-- Scan Card -->
+   
+    <!-- Moodue Indicator panel -->
+    <color name="module_indicator_panel_color">#52e800</color>
+    <!-- Focus Color -->
+    <color name="focus_color">#52e800</color>
+</resources>

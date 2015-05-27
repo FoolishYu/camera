@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cc.fotoplace.camera.ui.EffectPanel
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photo_effects_panel"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginBottom="108dp"
+    android:layout_gravity="bottom"
+    android:scrollbars="none"
+    android:overScrollMode="never"
+    android:visibility="gone">
+    <LinearLayout
+        android:id="@+id/photo_effects_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:background="@drawable/camera_filter_overlay"
+        android:orientation="horizontal"/>
+</cc.fotoplace.camera.ui.EffectPanel>

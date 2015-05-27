@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    <cc.fotoplace.camera.ui.RenderOverlay
+        android:id="@+id/render_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <cc.fotoplace.camera.ui.PanoramaIndicator
+        android:id="@+id/panorama_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/panorama_indicator_height"
+        android:layout_centerVertical="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/panorama_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/camera_pano_container"
+            android:contentDescription="@string/cd_panorama_bg"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:background="@android:color/white"
+            android:alpha="0.4"/>
+
+        <cc.fotoplace.camera.ui.MosaicThumnailImageView
+            android:id="@+id/panorama_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/panorama_rect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/camera_pano_viewframe"
+            android:contentDescription="@string/cd_camera_pano_viewframe_0"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/panorama_start_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/camera_pano_direction"
+            android:contentDescription="@string/cd_camera_pano_direction_1"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/panorama_text_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="2.0"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+
+    </cc.fotoplace.camera.ui.PanoramaIndicator>
+
+</RelativeLayout>

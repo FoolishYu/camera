@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This layout is shared by phone and tablet in landscape orientation. -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    <cc.fotoplace.camera.ui.RenderOverlay
+        android:id="@+id/render_overlay"
+        style="@style/RenderOverlay" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <cc.fotoplace.camera.ui.RotateImageButton
+            android:id="@+id/snapshot"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_camera_capture"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <cc.fotoplace.camera.ui.FocusIndicatorView
+        android:id="@+id/focus_indicator"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</merge>

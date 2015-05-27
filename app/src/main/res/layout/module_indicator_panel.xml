@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    <cc.fotoplace.camera.ui.ModuleIndicatorPanel
+         android:id="@+id/moduleguide"
+         android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="10dp"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true">
+        <TextView 
+            android:id="@+id/video_guide"
+            android:text="@string/guide_video_text"
+            style="@style/ModuleGuideText"/>
+        <TextView 
+            android:id="@+id/photo_guide"
+            android:text="@string/guide_photo_text"
+            style="@style/ModuleGuideText"/>
+        <TextView
+            android:id="@+id/scan_guide"
+            android:text="@string/guide_scan_text"
+            style="@style/ModuleGuideText"/>
+        <TextView
+            android:id="@+id/pano_guide"
+            android:text="@string/guide_pano_text"
+            style="@style/ModuleGuideText"/>
+     </cc.fotoplace.camera.ui.ModuleIndicatorPanel>
+</merge>

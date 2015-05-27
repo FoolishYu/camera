@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    <include layout="@layout/photo_setting_panel"/>
+
+    <ViewStub
+        android:id="@+id/face_view_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/face_view"
+        android:layout="@layout/face_view"
+        android:visibility="gone" />
+
+    <cc.fotoplace.camera.ui.RenderOverlay
+        android:id="@+id/render_overlay"
+        style="@style/RenderOverlay" />
+
+    <cc.fotoplace.camera.ui.FocusIndicatorView
+        android:id="@+id/focus_indicator"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <include layout="@layout/photo_effects_panel"/>
+
+</merge>

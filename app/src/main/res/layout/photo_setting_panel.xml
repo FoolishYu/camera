@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/photo_setting_panel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="60dp"
+    android:baselineAligned="true"
+    android:orientation="horizontal"
+    android:visibility="gone" >
+
+    <LinearLayout style="@style/PhotoSettingItem" >
+
+        <cc.fotoplace.camera.ui.RotateImageButton
+            android:id="@+id/photo_setting_lines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera_setting_lines" />
+
+        <TextView
+            android:id="@+id/camera_lines"
+            style="@style/PhotoSettingText"
+            android:text="@string/photo_setting_lines" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/photo_setting_hdr_panel"
+        style="@style/PhotoSettingItem" >
+
+        <cc.fotoplace.camera.ui.RotateImageButton
+            android:id="@+id/photo_setting_hdr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera_setting_hdr" />
+
+        <TextView
+                        android:id="@+id/photo_hdr_text"
+            style="@style/PhotoSettingText"
+            android:text="@string/photo_setting_hdr" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/PhotoSettingItem" >
+
+        <cc.fotoplace.camera.ui.RotateImageButton
+            android:id="@+id/photo_setting_beauty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera_setting_beautify" />
+
+        <TextView
+            android:id="@+id/photo_beauty_text"
+            style="@style/PhotoSettingText"
+            android:text="@string/photo_setting_face_beauty" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/PhotoSettingItem" >
+
+        <cc.fotoplace.camera.ui.RotateImageButton
+            android:id="@+id/photo_setting_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera_setting_settingmore" />
+
+        <TextView
+            android:id="@+id/photo_setting_text"
+            style="@style/PhotoSettingText"
+            android:text="@string/photo_setting_more" />
+    </LinearLayout>
+
+</LinearLayout>

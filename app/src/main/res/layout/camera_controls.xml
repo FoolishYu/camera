@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <cc.fotoplace.camera.ui.CameraControls
+        android:id="@+id/camera_controls"
+        style="@style/CameraControls" >
+
+        <ImageView
+            android:id="@+id/lines"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_descriptor_imageview"
+            android:visibility="gone"/>
+
+        <cc.fotoplace.camera.ui.RotateImageButton
+            android:id="@+id/switcher"
+            style="@style/CameraSwitcher" />
+
+        <View
+            android:id="@+id/upper_block_area"
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true" />
+
+        <ImageView
+            android:id="@+id/lower_controls"
+            style="@style/LowerControls"
+            android:contentDescription="@string/cd_lower_controls">
+        </ImageView>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="32dp">
+            <cc.fotoplace.camera.ShutterButton
+                android:id="@+id/photo_shutter"
+                style="@style/ShutterButton"
+                android:src="@drawable/btn_shutter_photo"/>
+            <cc.fotoplace.camera.ShutterButton
+                android:id="@+id/video_shutter"
+                style="@style/ShutterButton"
+                android:src="@drawable/btn_shutter_video"
+                android:visibility="gone"/>
+            <cc.fotoplace.camera.ui.RotateImageButton 
+                android:id="@+id/effect"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_camera_beautify_off"/>
+            <cc.fotoplace.camera.ui.ThumbnailLayout
+                android:id="@+id/photo_thumbnail_layout"
+                style="@style/Thumbnail" />
+            <cc.fotoplace.camera.ui.ThumbnailLayout
+                android:id="@+id/video_thumbnail_layout"
+                style="@style/Thumbnail"
+                android:visibility="gone"/>
+     </RelativeLayout>
+
+        <cc.fotoplace.camera.ui.RotateImageView
+            android:id="@+id/preview"
+            android:layout_width="@dimen/capture_size"
+            android:layout_height="@dimen/capture_size"
+            android:layout_gravity="top|right"
+            android:visibility="gone" />
+
+        <cc.fotoplace.camera.ui.RotateImageButton
+            android:id="@+id/photo_flash"
+            style="@style/FlashGroup"
+            android:src="@drawable/ic_camera_flash_auto"/>
+
+        <cc.fotoplace.camera.ui.RotateImageButton
+            android:id="@+id/video_flash"
+            style="@style/FlashGroup"
+            android:src="@drawable/ic_camera_light_off"
+            android:visibility="gone" />
+
+        <cc.fotoplace.camera.ui.RotateImageButton
+            android:id="@+id/photo_setting"
+            style="@style/PhotoSetting"/>
+
+        <cc.fotoplace.camera.ui.RotateImageButton
+            android:id="@+id/video_setting"
+            style="@style/PhotoSetting"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/indicator" 
+            style="@style/Indicator"
+            android:contentDescription="@string/cd_module_indicator"/>
+
+        <include layout="@layout/module_indicator_panel"/>
+
+    </cc.fotoplace.camera.ui.CameraControls>
+</merge>
